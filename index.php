@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Ricardo Barrote - Disruptive Designer</title>
+    <title>Ricardo Barrote - Disruptive Design</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/main.css">  
@@ -11,12 +11,30 @@
 </head>
     
 <body>
-    <div id="menubar">
-            <nobr><a href="#"><span class="glyphicon glyphicon-user"></span> Acerca</a></nobr>
-            <nobr><a href="#">Produtos</a></nobr>
-            <nobr><a href="#">Trabalhos</a></nobr>
-            <nobr><a href="#">Contactos</a></nobr>
+    <div class="sidemenu">
+        <?php include 'navbar.php'; ?>
     </div>
+    <div>
+        <table class="content">
+            <tr>
+                <td>Row 1, Column 1</td>
+                <td>Row 1, Column 2</td>
+                <td>Row 1, Column 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Column 1</td>
+                <td>Row 2, Column 2</td>
+                <td>Row 2, Column 3</td>
+            </tr>
+            <tr>
+                <td>Row 3, Column 1</td>
+                <td>Row 3, Column 2</td>
+                <td>Row 3, Column 3</td>
+            </tr>
+        </table>
+    </div>
+    
+    
     
 </body>
 </html>

@@ -5,14 +5,11 @@ $(function () {
 
     $("#menubar").hover(
         function () {
-            $("#menubar").width(300);
+            $("#menubar").width(200);
         },
         function () {
             $("#menubar").width(50);
         }
     );
-    
-    
-    
     
 });

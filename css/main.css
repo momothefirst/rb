@@ -1,7 +1,7 @@
 #menubar {
     width: 50px;
     height: 100%;
-    background: red;
+    background: #111;
     -webkit-transition: width 0.3s; /* For Safari 3.1 to 6.0 */
     transition: 0.3s;
     position: fixed;
@@ -10,19 +10,24 @@
 }
 
 #menubar a {
-    padding: 8px 8px 8px 15px;
+    padding: 10px 10px 10px 12px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
     display: block;
     transition: 0.3s;
-    color: white;
+    color: #555;
 }
 
 #menubar a:hover, .offcanvas a:focus{
-    color: #000;
+    color: #FFF;
 }
 
 .glyphicon {
     padding-right: 20px;
+}
+
+.content tr td {
+    height: 300px;
+    width: 400px;
+    background-color: blue;
 }
